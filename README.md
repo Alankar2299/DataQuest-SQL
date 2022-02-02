@@ -16,6 +16,11 @@ launch an online video rental service in order to stay competitive. 
 ● Where are customers with a high lifetime value based? 
 ● Do sales ﬁgures vary between geographic regions? 
 
+**Dataset**
+
+http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
+
+
 **SQL Queries Developed for the analysis**
 
 See attached code files
