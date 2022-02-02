@@ -1,0 +1,22 @@
+SQL Query with a Common Table Expression to identify Top 5 cutomers from Top 10 cities
+
+WITH Top_5_customers (customer_id,first_name,last_name,city,country,highest_payment) AS
+  (Select A.customer_id,A.first_name,A.last_name,C.city,D.country,sum (amount) as highest_payment
+from Customer A
+Left Join Address B on A.address_id = B.address_id
+inner join City C on B.city_id = C.City_id
+Inner join Country D ON C.Country_id = D.Country_id
+Inner join rental E on A.customer_id = E.customer_id
+Inner Join payment F on E.rental_id = F.rental_id
+
+where city in ('Aurora','Tokat','Tarsus','Atlixco','Emeishan','Pontianak','Shimoga','Aparecida de Goinia','Zalantun','Taguig')
+group by 
+
+A.customer_id,A.first_name,A.last_name,C.city,D.country
+
+Order by highest_payment desc
+
+Limit 5)
+
+Select avg (highest_payment)
+from Top_5_customers
