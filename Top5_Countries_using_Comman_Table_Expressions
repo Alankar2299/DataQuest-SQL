@@ -1,0 +1,33 @@
+Top5_Countries_using_Comman_Table_Expressions
+
+WITH Top_5_Countries (country,All_customer_count,Top_Customer_count) AS
+  (Select country.country, count(distinct customer.customer_id) as All_customer_count,count(distinct country.country_id) as Top_Customer_count
+from
+(Select 
+Customer.customer_id,Customer.first_name,Customer.last_name,City.city,country.country,sum (amount)as Highest_payments
+from Customer
+Left Join Address  on Customer.address_id = Address.address_id
+inner join City  on Address.city_id = City.City_id
+Inner join Country ON City.Country_id = country.Country_id
+Inner join rental  on Customer.customer_id = rental.customer_id
+Inner Join payment  on rental.rental_id = payment.rental_id
+
+where city in ('Aurora','Tokat','Tarsus','Atlixco','Emeishan','Pontianak','Shimoga','Aparecida de Goinia','Zalantun','Taguig')
+
+group by 
+
+Customer.customer_id,Customer.first_name,Customer.last_name,City.city,country.country
+
+Order by highest_payments desc
+limit 5) as sub
+left join customer on Customer.customer_id = Customer.customer_id
+left join address on Customer.address_id = address.address_id
+left join city on Address.city_id = City.City_id
+left join country on City.Country_id = country.Country_id
+
+group by country.country
+order by all_customer_count desc
+limit 5)
+
+Select country,All_customer_count,Top_Customer_count
+from Top_5_Countries
