@@ -29,8 +29,14 @@ See attached code files
 
 https://public.tableau.com/app/profile/alankar2299/viz/RockbusterStealthLLC_16419117266190/Spatial?publish=yes
 
+![image](https://user-images.githubusercontent.com/98812248/152143318-bc8d368f-9ef2-4106-b5d6-6ec4c367f8f7.png)
+
+
 **Final Presentation the client**
 See attached ppt
 220111_SQL Final PPT.pptx
+
+![image](https://user-images.githubusercontent.com/98812248/152143450-010d280a-fcf4-465c-ba65-b3d5b08afba8.png)
+
 
 
