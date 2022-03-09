@@ -32,8 +32,8 @@ https://public.tableau.com/app/profile/alankar2299/viz/RockbusterStealthLLC_1641
 
 
 #Final Presentation the client
-See attached ppt
-220111_SQL Final PPT.pptx
+
+https://github.com/Alankar2299/Rockbuster-Stealth-Customer-base-Analysis/blob/main/220111_Rockbuster%20Stealth.pptx
 
 ![image](https://user-images.githubusercontent.com/98812248/152143450-010d280a-fcf4-465c-ba65-b3d5b08afba8.png)
 
