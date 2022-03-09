@@ -22,7 +22,7 @@ http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
 
 #SQL Queries Developed for the analysis
 
-See attached code files
+https://github.com/Alankar2299/Rockbuster-Stealth-Customer-base-Analysis/blob/main/Top5_Countries_using_Comman_Table_Expressions
 
 #Tableau Visualizations
 
