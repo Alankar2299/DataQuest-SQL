@@ -1,37 +1,37 @@
 # Rockbuster-Stealth_Movie_Rental_Company
 
-#Data Analysis for the movie renting company-Rockbuster Stealth LLC
+### Data Analysis for the movie renting company-Rockbuster Stealth LLC
 
-#Project Brief
+### Project Brief
 Rockbuster Stealth LLC is a movie rental company that used to have stores around the   
 world.  Facing stiff competition from streaming services such as Netﬂix and Amazon Prime,   
 the Rockbuster Stealth management team is planning to use its existing movie licenses to   
 launch an online video rental service in order to stay competitive. 
 
-#Project Objectives
+### Project Objectives
 ● Which movies contributed the most/least to revenue gain? 
 ● What was the average rental duration for all videos? 
 ● Which countries are Rockbuster customers based in? 
 ● Where are customers with a high lifetime value based? 
 ● Do sales ﬁgures vary between geographic regions? 
 
-#Dataset
+### Dataset
 
 http://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip
 
 
-#SQL Queries Developed for the analysis
+### SQL Queries Developed for the analysis
 
 https://github.com/Alankar2299/Rockbuster-Stealth-Customer-base-Analysis/blob/main/Top5_Countries_using_Comman_Table_Expressions
 
-#Tableau Visualizations
+### Tableau Visualizations
 
 https://public.tableau.com/app/profile/alankar2299/viz/RockbusterStealthLLC_16419117266190/Spatial?publish=yes
 
 ![image](https://user-images.githubusercontent.com/98812248/152143318-bc8d368f-9ef2-4106-b5d6-6ec4c367f8f7.png)
 
 
-#Final Presentation the client
+### Presentation
 
 https://github.com/Alankar2299/Rockbuster-Stealth-Customer-base-Analysis/blob/main/220111_Rockbuster%20Stealth.pptx
 
