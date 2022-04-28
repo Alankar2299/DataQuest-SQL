@@ -31,7 +31,7 @@ https://public.tableau.com/app/profile/alankar2299/viz/RockbusterStealthLLC_1641
 ![image](https://user-images.githubusercontent.com/98812248/152143318-bc8d368f-9ef2-4106-b5d6-6ec4c367f8f7.png)
 
 
-### Presentation
+### Presentation 
 
 https://github.com/Alankar2299/Rockbuster-Stealth-Customer-base-Analysis/blob/main/220111_Rockbuster%20Stealth.pptx
 
